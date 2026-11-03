@@ -1,0 +1,25 @@
+per function: UPHODS-v2 better median on k/6 dims (sign-rank p one-sided)
+SW-UCB {'Ackley': '3/6 p=0.219', 'Griewank': '4/6 p=0.281', 'Rastrigin': '5/6 p=0.031', 'Rosenbrock': '5/6 p=0.109', 'ShiftedRastrigin': '5/6 p=0.047', 'ShiftedSphere': '1/6 p=0.891'}
+FSS-1 {'Ackley': '6/6 p=0.016', 'Griewank': '6/6 p=0.016', 'Rastrigin': '6/6 p=0.016', 'Rosenbrock': '6/6 p=0.016', 'ShiftedRastrigin': '5/6 p=0.031', 'ShiftedSphere': '6/6 p=0.016'}
+FSS-3 {'Ackley': '6/6 p=0.016', 'Griewank': '6/6 p=0.016', 'Rastrigin': '6/6 p=0.016', 'Rosenbrock': '6/6 p=0.016', 'ShiftedRastrigin': '5/6 p=0.031', 'ShiftedSphere': '6/6 p=0.016'}
+FSS-4 {'Ackley': '6/6 p=0.016', 'Griewank': '6/6 p=0.016', 'Rastrigin': '6/6 p=0.016', 'Rosenbrock': '6/6 p=0.016', 'ShiftedRastrigin': '6/6 p=0.016', 'ShiftedSphere': '6/6 p=0.016'}
+GP-PO-v2 {'Ackley': '6/6 p=0.016', 'Griewank': '6/6 p=0.016', 'Rastrigin': '6/6 p=0.016', 'Rosenbrock': '6/6 p=0.016', 'ShiftedRastrigin': '4/6 p=0.078', 'ShiftedSphere': '6/6 p=0.016'}
+
+vs SW-UCB by dimension (MWU two-sided W/T/L over 6 functions; P(superiority))
+5 2/4/0 A12 mean 0.56
+10 0/5/1 A12 mean 0.5
+20 1/5/0 A12 mean 0.55
+30 1/5/0 A12 mean 0.59
+50 3/3/0 A12 mean 0.65
+100 5/1/0 A12 mean 0.79
+
+GP cost per run by dim (UPHODS-v2): mean gp_seconds, max single fit, n_pairs, n_train, wall
+     gp_seconds  gp_max_seconds  n_pairs  n_train  wall_seconds      ns
+dim                                                                    
+5         1.804           0.054  377.889  163.606         2.707  22.450
+10        0.839           0.032  303.333  131.656         1.434  21.067
+20        0.350           0.016  214.778   93.756         0.691  18.211
+30        0.217           0.012  170.889   73.844         0.464  16.283
+50        0.125           0.008  125.722   54.133         0.285  12.633
+100       0.070           0.006   89.833   37.872         0.177   8.983
+switches: v2 16.6 SW-UCB 31.6

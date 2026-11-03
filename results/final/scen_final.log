@@ -1,0 +1,193 @@
+Uninstalled 1 package in 1ms
+warning: Failed to hardlink files; falling back to full copy. This may lead to degraded performance.
+         If the cache and target directories are on different filesystems, hardlinking may not be supported.
+         If this is intentional, set `export UV_LINK_MODE=copy` or use `--link-mode=copy` to suppress this warning.
+Installed 1 package in 25ms
+penalty 1000: 2160 runs to do (0 done), code f73c310
+  216/2160 10%  21s
+  432/2160 20%  35s
+  648/2160 30%  46s
+  864/2160 40%  62s
+  1080/2160 50%  81s
+  1296/2160 60%  94s
+  1512/2160 70%  108s
+  1728/2160 80%  126s
+  1944/2160 90%  143s
+  2160/2160 100%  159s
+Uninstalled 1 package in 1ms
+warning: Failed to hardlink files; falling back to full copy. This may lead to degraded performance.
+         If the cache and target directories are on different filesystems, hardlinking may not be supported.
+         If this is intentional, set `export UV_LINK_MODE=copy` or use `--link-mode=copy` to suppress this warning.
+Installed 1 package in 16ms
+penalty 1000: 2880 runs to do (0 done), code c530e90
+  288/2880 10%  3s
+  576/2880 20%  3s
+  864/2880 30%  4s
+  1152/2880 40%  4s
+  1440/2880 50%  5s
+  1728/2880 60%  5s
+  2016/2880 70%  5s
+  2304/2880 80%  6s
+  2592/2880 90%  7s
+  2880/2880 100%  8s
+Uninstalled 1 package in 1ms
+warning: Failed to hardlink files; falling back to full copy. This may lead to degraded performance.
+         If the cache and target directories are on different filesystems, hardlinking may not be supported.
+         If this is intentional, set `export UV_LINK_MODE=copy` or use `--link-mode=copy` to suppress this warning.
+Installed 1 package in 18ms
+penalty 1000: 360 runs to do (0 done), code c530e90
+  36/360 10%  2s
+  72/360 20%  2s
+  108/360 30%  2s
+  144/360 40%  2s
+  180/360 50%  2s
+  216/360 60%  3s
+  252/360 70%  3s
+  288/360 80%  3s
+  324/360 90%  3s
+  360/360 100%  3s
+Uninstalled 1 package in 1ms
+warning: Failed to hardlink files; falling back to full copy. This may lead to degraded performance.
+         If the cache and target directories are on different filesystems, hardlinking may not be supported.
+         If this is intentional, set `export UV_LINK_MODE=copy` or use `--link-mode=copy` to suppress this warning.
+Installed 1 package in 8ms
+penalty 1e+06: 2160 runs to do (0 done), code c530e90
+  216/2160 10%  19s
+  432/2160 20%  32s
+  648/2160 30%  43s
+  864/2160 40%  59s
+  1080/2160 50%  75s
+  1296/2160 60%  89s
+  1512/2160 70%  104s
+  1728/2160 80%  120s
+  1944/2160 90%  138s
+  2160/2160 100%  154s
+Uninstalled 1 package in 1ms
+warning: Failed to hardlink files; falling back to full copy. This may lead to degraded performance.
+         If the cache and target directories are on different filesystems, hardlinking may not be supported.
+         If this is intentional, set `export UV_LINK_MODE=copy` or use `--link-mode=copy` to suppress this warning.
+Installed 1 package in 15ms
+penalty 1e+06: 2880 runs to do (0 done), code c530e90
+  288/2880 10%  3s
+  576/2880 20%  3s
+  864/2880 30%  4s
+  1152/2880 40%  4s
+  1440/2880 50%  5s
+  1728/2880 60%  5s
+  2016/2880 70%  5s
+  2304/2880 80%  6s
+  2592/2880 90%  7s
+  2880/2880 100%  8s
+Uninstalled 1 package in 1ms
+warning: Failed to hardlink files; falling back to full copy. This may lead to degraded performance.
+         If the cache and target directories are on different filesystems, hardlinking may not be supported.
+         If this is intentional, set `export UV_LINK_MODE=copy` or use `--link-mode=copy` to suppress this warning.
+Installed 1 package in 16ms
+penalty 1e+06: 360 runs to do (0 done), code c530e90
+  36/360 10%  2s
+  72/360 20%  2s
+  108/360 30%  2s
+  144/360 40%  2s
+  180/360 50%  2s
+  216/360 60%  3s
+  252/360 70%  3s
+  288/360 80%  3s
+  324/360 90%  3s
+  360/360 100%  4s
+Uninstalled 1 package in 1ms
+warning: Failed to hardlink files; falling back to full copy. This may lead to degraded performance.
+         If the cache and target directories are on different filesystems, hardlinking may not be supported.
+         If this is intentional, set `export UV_LINK_MODE=copy` or use `--link-mode=copy` to suppress this warning.
+Installed 1 package in 16ms
+discrete 10: 2160 runs to do (0 done), code c530e90
+  216/2160 10%  16s
+  432/2160 20%  30s
+  648/2160 30%  40s
+  864/2160 40%  54s
+  1080/2160 50%  70s
+  1296/2160 60%  83s
+  1512/2160 70%  97s
+  1728/2160 80%  112s
+  1944/2160 90%  127s
+  2160/2160 100%  142s
+Uninstalled 1 package in 1ms
+warning: Failed to hardlink files; falling back to full copy. This may lead to degraded performance.
+         If the cache and target directories are on different filesystems, hardlinking may not be supported.
+         If this is intentional, set `export UV_LINK_MODE=copy` or use `--link-mode=copy` to suppress this warning.
+Installed 1 package in 16ms
+discrete 10: 2880 runs to do (0 done), code c530e90
+  288/2880 10%  2s
+  576/2880 20%  2s
+  864/2880 30%  3s
+  1152/2880 40%  3s
+  1440/2880 50%  4s
+  1728/2880 60%  4s
+  2016/2880 70%  4s
+  2304/2880 80%  5s
+  2592/2880 90%  6s
+  2880/2880 100%  6s
+Uninstalled 1 package in 1ms
+warning: Failed to hardlink files; falling back to full copy. This may lead to degraded performance.
+         If the cache and target directories are on different filesystems, hardlinking may not be supported.
+         If this is intentional, set `export UV_LINK_MODE=copy` or use `--link-mode=copy` to suppress this warning.
+Installed 1 package in 15ms
+discrete 10: 360 runs to do (0 done), code c530e90
+  36/360 10%  2s
+  72/360 20%  2s
+  108/360 30%  2s
+  144/360 40%  2s
+  180/360 50%  2s
+  216/360 60%  2s
+  252/360 70%  2s
+  288/360 80%  3s
+  324/360 90%  3s
+  360/360 100%  3s
+Uninstalled 1 package in 1ms
+warning: Failed to hardlink files; falling back to full copy. This may lead to degraded performance.
+         If the cache and target directories are on different filesystems, hardlinking may not be supported.
+         If this is intentional, set `export UV_LINK_MODE=copy` or use `--link-mode=copy` to suppress this warning.
+Installed 1 package in 10ms
+discrete 30: 2160 runs to do (0 done), code c530e90
+  216/2160 10%  16s
+  432/2160 20%  30s
+  648/2160 30%  41s
+  864/2160 40%  55s
+  1080/2160 50%  70s
+  1296/2160 60%  83s
+  1512/2160 70%  98s
+  1728/2160 80%  113s
+  1944/2160 90%  128s
+  2160/2160 100%  142s
+Uninstalled 1 package in 1ms
+warning: Failed to hardlink files; falling back to full copy. This may lead to degraded performance.
+         If the cache and target directories are on different filesystems, hardlinking may not be supported.
+         If this is intentional, set `export UV_LINK_MODE=copy` or use `--link-mode=copy` to suppress this warning.
+Installed 1 package in 18ms
+discrete 30: 2880 runs to do (0 done), code c530e90
+  288/2880 10%  2s
+  576/2880 20%  2s
+  864/2880 30%  3s
+  1152/2880 40%  3s
+  1440/2880 50%  4s
+  1728/2880 60%  4s
+  2016/2880 70%  4s
+  2304/2880 80%  5s
+  2592/2880 90%  6s
+  2880/2880 100%  6s
+Uninstalled 1 package in 1ms
+warning: Failed to hardlink files; falling back to full copy. This may lead to degraded performance.
+         If the cache and target directories are on different filesystems, hardlinking may not be supported.
+         If this is intentional, set `export UV_LINK_MODE=copy` or use `--link-mode=copy` to suppress this warning.
+Installed 1 package in 17ms
+discrete 30: 360 runs to do (0 done), code c530e90
+  36/360 10%  2s
+  72/360 20%  2s
+  108/360 30%  2s
+  144/360 40%  2s
+  180/360 50%  2s
+  216/360 60%  2s
+  252/360 70%  2s
+  288/360 80%  2s
+  324/360 90%  2s
+  360/360 100%  3s
+SCEN_DONE

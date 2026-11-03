@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+results/dev/
+results/**/*.err
+results/final/recommendation.log
+# combined copies, rebuilt with experiments/combine_results.sh
+results/final/main_all.jsonl
+results/final/ctrl_all.jsonl
+results/final/gppo.jsonl

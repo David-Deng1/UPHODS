@@ -1,0 +1,82 @@
+
+### dm_pick_u: mean rank (higher utility = better)
+method
+UPHODS-v2-noRN       3.42
+UPHODS-v2-noHys      3.75
+UPHODS-v2            4.25
+UPHODS-v2-fixedW     4.33
+SW-UCB               5.00
+UPHODS-v2-noET       5.25
+Single-PSO           7.67
+FSS-3                8.33
+FSS-4                9.33
+FSS-1                9.50
+Single-GD            9.58
+FSS-2               11.75
+Single-SA           11.92
+Single-GA           12.83
+GP-PO-v2            13.08
+
+UPHODS-v2 vs others (Mann-Whitney p<0.05, W/T/L) and Wilcoxon on medians (one-sided)
+  FSS-1              10/2/0   p=4.9e-04
+  FSS-2              11/1/0   p=2.4e-04
+  FSS-3              8/3/1   p=4.9e-04
+  FSS-4              10/1/1   p=4.9e-04
+  GP-PO-v2           12/0/0   p=2.4e-04
+  SW-UCB             2/10/0   p=4.6e-02
+  Single-GA          11/1/0   p=2.4e-04
+  Single-GD          7/4/1   p=1.0e-02
+  Single-PSO         8/3/1   p=4.6e-03
+  Single-SA          11/1/0   p=2.4e-04
+  UPHODS-v2-fixedW   0/12/0   p=6.9e-01
+  UPHODS-v2-noET     6/5/1   p=4.0e-01
+  UPHODS-v2-noHys    0/12/0   p=5.7e-01
+  UPHODS-v2-noRN     0/12/0   p=9.4e-01
+method                FSS-1  FSS-2  FSS-3  FSS-4  GP-PO-v2  SW-UCB  Single-GA  Single-GD  Single-PSO  Single-SA  UPHODS-v2  UPHODS-v2-fixedW  UPHODS-v2-noET  UPHODS-v2-noHys  UPHODS-v2-noRN
+function         dim                                                                                                                                                                         
+Ackley           10   -2.57  -1.78  -2.51  -2.35     -2.85   -1.53      -2.75      -4.32        -1.6      -1.67      -1.55             -1.55           -1.42            -1.71           -1.64
+                 30   -3.98  -3.93  -3.88  -3.97     -3.48   -3.37      -3.94      -4.21       -2.77      -4.08      -2.99             -2.99           -2.88            -2.99           -2.94
+Griewank         10  -0.563  -1.79 -0.463 -0.474     -2.19  -0.447      -2.06     -0.454       -1.11      -1.36     -0.455            -0.455          -0.889           -0.453          -0.453
+                 30  -0.721  -6.32  -1.09 -0.755      -5.5  -0.611      -6.46     -0.613       -3.19       -3.4     -0.609            -0.609          -0.674           -0.608          -0.609
+Rastrigin        10   -4.36  -4.13  -4.16  -4.43        -5   -4.02      -4.32      -5.72       -3.81      -4.62      -3.79             -3.78           -3.43            -3.73           -3.74
+                 30   -6.43  -6.52   -6.2  -6.44     -6.49   -5.85      -6.67      -6.95       -5.98      -6.72      -5.76             -5.76            -5.6            -5.76           -5.76
+Rosenbrock       10   -5.11  -6.66  -3.01  -4.45     -7.38   -2.93      -6.96      -2.79        -4.1      -7.26      -2.81             -2.81           -4.07            -2.83           -2.81
+                 30   -6.49  -13.7  -6.82  -6.15     -10.9   -5.64      -14.1      -4.81       -9.06      -10.8      -4.45             -4.45           -6.88            -4.45           -4.45
+ShiftedRastrigin 10   -4.34  -4.32  -4.38  -4.51     -4.87   -4.14      -4.26      -5.88        -4.1      -4.46      -4.22             -4.19           -4.02            -4.29           -4.22
+                 30   -6.66  -6.86  -6.53  -6.67     -6.67   -6.21      -6.94      -7.23       -6.34      -6.58      -5.98             -5.98           -6.06            -5.98           -5.98
+ShiftedSphere    10   -1.01  -6.89  -1.01  -1.01     -7.48   -1.01      -7.17      -1.01       -3.16      -5.65      -1.01             -1.01           -1.01            -1.01           -1.01
+                 30   -1.45  -12.1  -1.92  -1.45     -10.5   -1.45      -12.2      -1.45       -9.15      -9.22      -1.45             -1.45           -1.45            -1.45           -1.45
+
+### dm_best_u: mean rank (higher utility = better)
+method
+UPHODS-v2-noRN     3.58
+UPHODS-v2-fixedW   3.67
+UPHODS-v2          3.75
+UPHODS-v2-noHys    4.17
+SW-UCB             5.25
+UPHODS-v2-noET      5.5
+GP-PO-v2           8.25
+Single-PSO         8.33
+Single-GD             9
+FSS-3               9.5
+FSS-4              10.4
+FSS-1              10.5
+FSS-2                12
+Single-SA          12.7
+Single-GA          13.5
+
+UPHODS-v2 vs others (Mann-Whitney p<0.05, W/T/L) and Wilcoxon on medians (one-sided)
+  FSS-1              11/1/0   p=2.4e-04
+  FSS-2              11/1/0   p=2.4e-04
+  FSS-3              8/4/0   p=2.4e-04
+  FSS-4              11/1/0   p=2.4e-04
+  GP-PO-v2           10/2/0   p=2.4e-03
+  SW-UCB             3/9/0   p=4.6e-02
+  Single-GA          11/1/0   p=2.4e-04
+  Single-GD          6/6/0   p=1.3e-02
+  Single-PSO         8/3/1   p=4.6e-03
+  Single-SA          11/1/0   p=2.4e-04
+  UPHODS-v2-fixedW   0/12/0   p=8.1e-01
+  UPHODS-v2-noET     5/6/1   p=4.0e-01
+  UPHODS-v2-noHys    0/12/0   p=4.3e-01
+  UPHODS-v2-noRN     0/12/0   p=8.4e-01

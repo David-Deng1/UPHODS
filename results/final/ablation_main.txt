@@ -1,0 +1,8 @@
+target UPHODS-v2: mean switches 16.6
+| variant | W | T | L | target better on (instances) | Wilcoxon p (two-sided) | Holm | mean NS |
+|---|---|---|---|---|---|---|---|
+| UPHODS-v2-fixedW | 0 | 36 | 0 | 19% | 1.69e-02 | 5.06e-02 | 16.6 |
+| UPHODS-v2-noET | 21 | 12 | 3 | 81% | 3.30e-03 | 1.32e-02 | 13.9 |
+| UPHODS-v2-noHys | 0 | 36 | 0 | 36% | 1.12e-01 | 2.23e-01 | 21.2 |
+| UPHODS-v2-noRN | 0 | 36 | 0 | 39% | 7.69e-01 | 7.69e-01 | 16.7 |
+GP time share of wall time (mean over runs): {'UPHODS-v2': 0.5, 'UPHODS-v2-fixedW': 0.513, 'UPHODS-v2-noET': 0.521, 'UPHODS-v2-noHys': 0.494, 'UPHODS-v2-noRN': 0.52}
